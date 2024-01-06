@@ -1,0 +1,281 @@
+#aboutCare .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#aboutCare .container #products-all {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+#aboutCare .container #products-all .box {
+  padding: 10px;
+  max-width: 300px;
+  border: 1px solid red;
+}
+#aboutCare .container #products-all .box img {
+  width: 100%;
+}
+#aboutCare .container #products-all .box button {
+  padding: 7px 20px;
+  border-radius: 30px;
+  background-color: red;
+  border: 1px solid red;
+  color: #fff;
+}
+#aboutCare .container #products-all .box button:hover {
+  background-color: #fff;
+  color: red;
+  transition: 1s;
+}
+#aboutCare .container button {
+  padding: 7px 20px;
+  border-radius: 30px;
+  background-color: green;
+  border: 1px solid green;
+  color: #fff;
+}
+#aboutCare .container button:hover {
+  background-color: #fff;
+  color: green;
+  transition: 1s;
+}
+
+#forminfo {
+  padding: 20px;
+  background-image: url("/assets/img/c2bfd4e470a2afa2414be492ecd38103.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff !important;
+}
+
+header .container .row {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+header .container .row .col-xl-4 .headerText p {
+  margin: 0;
+  width: 60%;
+}
+header .container .row .headerNumber {
+  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .container .row .headerNumber p i {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6214b;
+  color: #fff;
+  margin-left: 10px;
+}
+header nav .collapse {
+  align-items: center;
+  justify-content: center;
+}
+header nav .collapse ul .homeTag {
+  color: #f6214b;
+}
+header nav .collapse ul li {
+  font-size: 14px;
+}
+header nav .collapse ul li a:hover {
+  color: #f6214b;
+}
+header nav .collapse ul .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#serverHero {
+  background-image: url(/assets/img/header-bg\ \(1\).jpg);
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+}
+#serverHero .serverText {
+  width: 100%;
+}
+#serverHero .serverText p {
+  max-width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#care-about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#care-about .container .we-care-text {
+  text-align: center;
+}
+#care-about .container .we-care-text p {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+#care-about .container .we-care-text .systemText {
+  font-size: 14px;
+  opacity: 50%;
+}
+#care-about .container #products {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+#care-about .container #products .box {
+  padding: 10px;
+  max-width: 300px;
+  border: 1px solid green;
+}
+#care-about .container #products .box img {
+  width: 100%;
+}
+#care-about .container #products .box button {
+  padding: 7px 20px;
+  border-radius: 30px;
+  background-color: green;
+  border: 1px solid green;
+  color: #fff;
+}
+#care-about .container #products .box button:hover {
+  background-color: #fff;
+  color: green;
+  transition: 1s;
+}
+#care-about .container button {
+  padding: 7px 20px;
+  border-radius: 30px;
+  background-color: green;
+  border: 1px solid green;
+  color: #fff;
+}
+#care-about .container button:hover {
+  background-color: #fff;
+  color: green;
+  transition: 1s;
+}
+
+#gymPhotos {
+  background-color: #fefefe;
+}
+#gymPhotos .gymtextInfo {
+  text-align: center;
+}
+#gymPhotos .gymtextInfo p {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+#gymPhotos .gymtextInfo .gymtext {
+  font-size: 14px;
+  opacity: 50%;
+}
+#gymPhotos .row .col-xl-4 {
+  position: relative;
+}
+#gymPhotos .row .col-xl-4 .course {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  margin: 20px;
+  color: #fff;
+  padding: 10px 25px;
+  background-color: #f6214b;
+}
+#gymPhotos .row .col-xl-4 .classes {
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#gymPhotos .row .col-xl-4 .classes .dollar {
+  color: #f6214b;
+}
+
+#bg-photoBoy {
+  background-image: url(/assets/img/callto-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#bg-photoBoy .wordsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#bg-photoBoy .wordsBox p {
+  color: #fff;
+}
+#bg-photoBoy .wordsBox .huge {
+  font-size: 35px;
+  font-weight: 700;
+}
+#bg-photoBoy button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid #f6214b;
+  color: #fff;
+  background-color: #f6214b;
+}
+#bg-photoBoy button:hover {
+  border: 1px solid #fff;
+  background-color: transparent;
+  transition: 1s;
+}
+
+footer {
+  background-color: #f8f8f8;
+}
+footer .footherInfo {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footherInfo .footertext p {
+  margin: 0;
+}
+footer .footherInfo .footertext p span {
+  color: #f6214b;
+}
+footer .footherInfo .footerIcons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+footer .footherInfo .footerIcons p {
+  padding: 10px 15px;
+  background-color: #111111;
+  color: #cccccc;
+}
+footer .footherInfo .footerIcons p:hover {
+  background-color: #f6214b;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media (max-width: 570px) {
+  .headerText {
+    display: none;
+  }
+  header .container .row .headerNumber {
+    display: none !important;
+  }
+  #serverHero .serverText p {
+    font-size: 35px;
+  }
+}
